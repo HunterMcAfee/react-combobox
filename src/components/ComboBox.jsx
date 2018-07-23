@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Dropdown extends Component {
+class ComboBox extends Component {
     constructor() {
         super();
         this.dropdown = React.createRef();
@@ -166,4 +166,4 @@ class Dropdown extends Component {
     }
 }
 
-export default Dropdown;
+export default ComboBox;
