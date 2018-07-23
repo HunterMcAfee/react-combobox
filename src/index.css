@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.searchDropdown {
+  border-right: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  background-color: #f5f5f5;
+  border-radius: .25rem; 
+  max-height: 25vh;
+  overflow-y: scroll;
+}
+
+.inputBox:focus div {
+  display: none;
+}
+
+.selection {
+  padding: 4px;
+  margin: 3px;
+}
+
+.selection:focus {
+  color: white;
+  background-color: #FF8500;
+  cursor: pointer;
+}
+
+.selection:hover {
+  color: white;
+  background-color: #FF8500;
+  border-radius: .25rem; 
+  cursor: pointer;
+}
+
+.selection:hover {
+  color: white;
+  background-color: #FF8500;
+  cursor: pointer;
+}
